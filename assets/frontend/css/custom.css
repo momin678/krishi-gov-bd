@@ -418,3 +418,18 @@ ul{
 .header-menu ul{
     display: flex;
 }
+.ek-nojore-link{
+    margin: 0 !important;
+}
+.question-title{
+    margin-bottom: 0!important;
+}
+a .countName{
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
+}
+a .countNuber{
+    color: #873fa3;
+    font-size: 34px;
+    font-weight: 400;
+}
