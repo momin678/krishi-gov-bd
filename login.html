@@ -1,0 +1,99 @@
+<!doctype html>
+
+<!-- Mirrored from krishi.gov.bd/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Apr 2022 14:17:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>লগইন - কৃষি সম্প্রসারণ বাতায়ন </title>
+
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="description" content="কৃষি সম্প্রসারণ বাতায়ন, কৃষি, কৃষি সম্প্রসারণ, কৃষি মন্ত্রনালয়" />
+<meta name="keywords" content="কৃষি সম্প্রসারণ বাতায়ন, কৃষি, কৃষি সম্প্রসারণ, কৃষি মন্ত্রনালয়, কৃষি-a2i, krishi, krishi somprosharon batayon, krishi somprosharon, krishi montronaloy, agriculture extension portal, agriculture, agriculture-a2i, agriculture extension, agriculture ministry, bangladesh agriculture extension portal, bangladesh agriculture, bangladesh agriculture-a2i, bangladesh agriculture extension, bangladesh agriculture ministry,বাংলাদেশ কৃষি সম্প্রসারণ বাতায়ন, বাংলাদেশ কৃষি, বাংলাদেশ কৃষি সম্প্রসারণ, বাংলাদেশ কৃষি মন্ত্রনালয়, বাংলাদেশ কৃষি-এ২আই, bangladesh krishi, bangladesh krishi somprosharon batayon, bangladesh krishi somprosharon, bangladesh krishi montronaloy, আবাদ, ফল, কৃষি, কৃষক, বৃদ্ধি, সবজি, ভাসমান, ড্রাম, আউশ, আম, Cultivation, fruit, agriculture, farmer, growth, vegetables, floating, drum, Aus, mango">
+<meta name="author" content="A2I, tanvirquader, ratonshahadat, Tanvir Quader, Md. Shahadat Hossain, Sohan Chowdhury, Siam Rafsunjani, Nahid Hasan, Ibnul Kaish, Alimul AL Razy, Abrar Shariar">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="csrf-token" content="ckBN5zKE8eRsKghnYaIUEBCbPfFBoQUbpYbBOxVR">
+    <link type="text/css" media="all" rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="assets/js/material.min.js"></script>
+
+    <link type="text/css" media="all" rel="stylesheet" href="assets/css/material.purple-light_green.css">
+
+
+</head>
+<body>
+<div class="admin-landing-image-source"></div>
+<div class="admin-landing-image-cover"></div>
+<div class="admin-wrapper">
+    <div class="admin-content">
+        <div class="admin-content-image-text">
+            <!--h1>Welcome to AssetMela</h1>
+            <h2>Please login to continue.</h2-->
+        </div>
+    </div>
+    <div class="admin-sidebar-secondary">
+        <div class="admin-sidebar-secondary-inner">
+            <div class="admin-sidebar-secondary-inner-top">
+
+                <a class="logo-light " href="index.html">
+                    <img alt="" src="assets/images/green-logo.png" class="logo center-block"/></a>
+
+                <br><br><br>
+                                                <form method="POST" action="http://krishi.gov.bd/login" accept-charset="UTF-8"><input name="_token" type="hidden" value="ckBN5zKE8eRsKghnYaIUEBCbPfFBoQUbpYbBOxVR">
+
+                            <!-- Numeric Textfield with Floating Label -->
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="mobile" onkeyup="eToB(this)">
+                    <label class="mdl-textfield__label" for="sample4">আপনার ফোন নম্বর </label>
+                    <span class="mdl-textfield__error"> ফোন নম্বর </span>
+                </div>
+
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="password" name="password">
+                    <label class="mdl-textfield__label" for="sample3">পাসওয়ার্ড</label>
+                </div>
+                <br>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                    লগইন
+                </button>
+                </form>
+            </div>
+            <div class="admin-sidebar-secondary-inner-bottom">
+                <div class="admin-sidebar-footer">
+                    <div class="admin-sidebar-info">
+                        <ul>
+                            <li><a href=register.html>নিবন্ধন</a></li>
+                            <li><a href=forgot-password.html>﻿পাসওয়ার্ড ভুলে গেছেন ?</a></li>
+                            <li><a href="#">সহায়তা</a></li>
+                        </ul>
+                    </div>
+                    <p>কৃষি সম্প্রসারণ বাতায়ন </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function eToB(e) {
+        var mob = e.value;
+        try{
+            e.value = mob.getDigitEnglishFromBangla();
+        }
+        catch (err) {
+            console.log(err.message);
+        }
+    }
+    var finalBanglaToEnglishNumber={'০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9'};
+
+    String.prototype.getDigitEnglishFromBangla = function() {
+        var retStr = this;
+        for (var x in finalBanglaToEnglishNumber) {
+            retStr = retStr.replace(new RegExp(x, 'g'), finalBanglaToEnglishNumber[x]);
+        }
+        return retStr;
+    };
+</script>
+</body>
+
+<!-- Mirrored from krishi.gov.bd/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Apr 2022 14:17:58 GMT -->
+</html>
